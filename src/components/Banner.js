@@ -28,7 +28,7 @@ const Banner = () => {
           {/* text section */}
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl lg:text-[110px] font-bold leading-[0.8] text-[55px]">
-              Ben <span className="text-accent">Aiden</span>
+              Precious <span className="text-accent">Uwem</span>
             </h1>
             <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <span className="text-white mr-4">I am a</span>

@@ -23,13 +23,13 @@ import { fadeIn } from "../variants";
 // Social Links Data
 const socialLinks = [
   { Icon: FaYoutube, link: "https://youtube.com", label: "YouTube" },
-  { Icon: FaGithub, link: "https://github.com", label: "GitHub" },
-  { Icon: FaFacebook, link: "https://facebook.com", label: "Facebook" },
-  { Icon: FaInstagram, link: "https://instagram.com", label: "Instagram" },
-  { Icon: FaTwitter, link: "https://twitter.com", label: "Twitter" },
+  { Icon: FaGithub, link: "https://github.com/PelvinDreams", label: "GitHub" },
+  { Icon: FaFacebook, link: "https://web.facebook.com/profile.php?id=100090857771370", label: "Facebook" },
+  { Icon: FaInstagram, link: "https://www.instagram.com/pelvindream", label: "Instagram" },
+  { Icon: FaTwitter, link: "https://x.com/PelvinDreams", label: "Twitter" },
 ];
 
-const Banner = ({ roles = ["Developer", "Designer", "Youtuber"] }) => {
+const Banner = ({ roles = ["Developer", "Open source builder", "Designer"] }) => {
   return (
     <section
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
@@ -46,7 +46,7 @@ const Banner = ({ roles = ["Developer", "Designer", "Youtuber"] }) => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-4xl lg:text-[110px] font-bold leading-[0.8]"
             >
-              Aiden <span className="text-accent">Ben</span>
+              Precious<span className="text-accent">Uwem</span>
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -71,8 +71,7 @@ const Banner = ({ roles = ["Developer", "Designer", "Youtuber"] }) => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I am passionate about building creative and functional digital
-              solutions that make a difference.
+             Passionate Developer & Open source builder|
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -81,8 +80,8 @@ const Banner = ({ roles = ["Developer", "Designer", "Youtuber"] }) => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-4 mb-8 max-w-max items-center mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#portfolio" className="text-gradient btn-link">
+              <button className="btn btn-lg"></button>
+              <a href="#work" className="text-gradient btn-link">
                 My Portfolio
               </a>
             </motion.div>

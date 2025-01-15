@@ -5,24 +5,28 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
+    name: "Frontend Development",
+    description:
+      "I create visually stunning, user-centric interfaces using HTML5, React, CSS, TailwindCSS, and JavaScript. With a focus on seamless user experiences and modern design trends, I bring your vision to life.",
+    link: "https://www.upwork.com/freelancers/~0142215c58984c7a2e?mp_source=share",
+  },
+  {
+    name: "Backend Development",
+    description:
+      "I build robust and scalable server-side solutions using Node.js, Express.js, and PHP. From database integration to API development, I ensure secure, efficient, and reliable backend architectures tailored to your needs",
+    link: "https://www.upwork.com/freelancers/~0142215c58984c7a2e?mp_source=share",
+  },
+  {
+    name: "Fullstack Development",
+    description:
+      "I provide end-to-end web solutions, combining intuitive front-end designs with robust back-end architectures. From user interfaces to server-side functionalities, I deliver seamless, impactful, and fully integrated digital experiences.",
+    link: "https://www.upwork.com/freelancers/~0142215c58984c7a2e?mp_source=share",
+  },
+  {
     name: "UI/UX Designer",
-    description: "Lorem Ipsum is dummy text widely used in the printing and typesetting industry since the 1500s.",
-    link: "/ui-ux-designer",
-  },
-  {
-    name: "Development",
-    description: "Lorem Ipsum is dummy text widely used in the printing and typesetting industry since the 1500s.",
-    link: "/development",
-  },
-  {
-    name: "YouTuber",
-    description: "Lorem Ipsum is dummy text widely used in the printing and typesetting industry since the 1500s.",
-    link: "/youtuber",
-  },
-  {
-    name: "Digital Marketer",
-    description: "Lorem Ipsum is dummy text widely used in the printing and typesetting industry since the 1500s.",
-    link: "/digital-marketer",
+    description:
+      "I craft visually compelling and user-focused designs that align with your brand identity. From wireframes to polished interfaces, I ensure every element enhances usability and creates an engaging experience.",
+    link: "https://www.upwork.com/freelancers/~0142215c58984c7a2e?mp_source=share",
   },
 ];
 
@@ -41,9 +45,13 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I Deliver</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              Lorem Ipsum is dummy text widely used in the printing and typesetting industry since the 1500s.
+              The services I offer encompass a comprehensive range, catering to
+              diverse needs.
             </h3>
-            <button className="btn btn-sm">See my works</button>
+            <a href="#work">
+              {" "}
+              <button className="btn btn-sm"> See my works </button>{" "}
+            </a>
           </motion.div>
           {/* Services list */}
           <motion.div
@@ -54,9 +62,14 @@ const Services = () => {
             className="flex-1"
           >
             {services.map(({ name, description, link }, index) => (
-              <div className="border-b border-white/20 h-[146px] mb-[38px] flex" key={name}>
+              <div
+                className="border-b border-white/20 h-[146px] mb-[38px] flex"
+                key={name}
+              >
                 <div className="max-w-[476px]">
-                  <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">{name}</h4>
+                  <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
+                    {name}
+                  </h4>
                   <p className="font-secondary leading-tight">{description}</p>
                 </div>
                 <div className="flex flex-col flex-1 items-end">
@@ -67,7 +80,12 @@ const Services = () => {
                   >
                     <BsArrowUpRight className="text-2xl text-accent" />
                   </a>
-                  <a href={link} className="text-gradient text-sm">
+                  <a
+                    href={
+                      "https://www.upwork.com/freelancers/~0142215c58984c7a2e?mp_source=share"
+                    }
+                    className="text-gradient text-sm"
+                  >
                     Learn more
                   </a>
                 </div>

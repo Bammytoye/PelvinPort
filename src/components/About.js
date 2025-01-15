@@ -27,9 +27,7 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className=""
-          >
-            all
-          </motion.div>
+          ></motion.div>
         </div>
 
         <div>
@@ -51,8 +49,13 @@ const About = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="h3 mb-2"
             >
-              Lorem Ipsum is dummy text widely used in the printing and
-              typesetting industry since the 1500s.
+              I'm Precious, a skilled web developer with expertise in React,
+              <br />
+              Node.js, and modern technologies. Since 2019, I've been creating
+              <br />
+              innovative, user-centric solutions that blend creativity, logic,
+              <br />
+              and functionality to deliver impactful results.
             </motion.h3>
 
             <motion.p
@@ -62,16 +65,15 @@ const About = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-2"
             >
-              Lorem Ipsum is dummy text widely used in the printing and
-              typesetting industry since the 1500s.
+              Developer crafting innovative web solutions since 2019.
             </motion.p>
 
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}{" "}
-                  k+
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}{" "}
+                  +
                 </div>
 
                 <div className="font-primary text-sm tracking-[2px]">
@@ -82,7 +84,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}{" "}
+                  {inView ? <CountUp start={0} end={83} duration={3} /> : null}{" "}
                   k+
                 </div>
 
@@ -94,7 +96,7 @@ const About = () => {
 
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}{" "}
+                  {inView ? <CountUp start={0} end={25} duration={3} /> : null}{" "}
                   k+
                 </div>
 
@@ -106,8 +108,8 @@ const About = () => {
             </div>
 
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className=" text-gradient btn-link">
+              <button className="btn btn-lg"></button>
+              <a href="#work" className=" text-gradient btn-link">
                 My Portfolio
               </a>
             </div>

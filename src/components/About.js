@@ -28,7 +28,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.7 }}
             className=""
           >
-            img
+            all
           </motion.div>
         </div>
 

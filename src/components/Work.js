@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 // images
 import img1 from "../assets/payne-img1.PNG";
-// import img2 from "../assets/portfolio-img2.PNG";
-import img3 from "../assets/portfolio-img34.PNG";
-import img4 from "../assets/portfolio-img4.PNG";
-import img5 from "../assets/portfolio-img5.PNG";
-import img6 from "../assets/portfolio-img6.PNG";
- 
+const img2 = require("../assets/portfolio-img2.PNG");
+const img3 = require("../assets/portfolio-img34.PNG");
+const img4 = require("../assets/portfolio-img4.PNG");
+const img5 = require("../assets/portfolio-img5.PNG");
+const img6 = require("../assets/portfolio-img6.PNG");
+
 // Animation Variants
 const fadeIn = (direction = "up", delay = 0) => {
   return {
@@ -19,7 +19,7 @@ const fadeIn = (direction = "up", delay = 0) => {
     show: {
       opacity: 1,
       x: 0,
-      y: 0, 
+      y: 0,
       transition: {
         duration: 0.6,
         delay,
@@ -31,12 +31,7 @@ const fadeIn = (direction = "up", delay = 0) => {
 // Reusable ProjectCard Component
 const ProjectCard = ({ image, preTitle, title, link }) => {
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block"
-    >
+    <a href={link} target="_blank" rel="noopener noreferrer" className="block">
       <motion.div
         className="group relative overflow-hidden cursor-pointer border-2 border-white border-white/50 rounded-xl"
         variants={fadeIn("up", 0.3)}
@@ -67,12 +62,42 @@ const ProjectCard = ({ image, preTitle, title, link }) => {
 
 const Work = () => {
   const projects = [
-    { image: img1, preTitle: "PayPanel", title: "Visit Project", link: "https://www.paypanel.ng" },
-    // { image: img2, preTitle: "Astro", title: "Visit Project", link: "https://astrofx.pro" },
-    { image: img3, preTitle: "Algo Trade", title: "Visit Project", link: "https://pelvindreams.github.io/algotrades/about.html" },
-    { image: img4, preTitle: "Shopify", title: "Visit Project", link: "https://pelvindreams.github.io/Ecom" },
-    { image: img5, preTitle: "Growth Saver", title: "Visit Project", link: "https://pelvindreams.github.io/GrowthSaver" },
-    { image: img6, preTitle: "Capital TDX", title: "Visit Project", link: "https://capitaltdx.in/" },
+    {
+      image: img1,
+      preTitle: "PayPanel",
+      title: "Visit Project",
+      link: "https://www.paypanel.ng",
+    },
+    {
+      image: img2,
+      preTitle: "Astro",
+      title: "Visit Project",
+      link: "https://astrofx.pro",
+    },
+    {
+      image: img3,
+      preTitle: "Algo Trade",
+      title: "Visit Project",
+      link: "https://pelvindreams.github.io/algotrades/about.html",
+    },
+    {
+      image: img4,
+      preTitle: "Shopify",
+      title: "Visit Project",
+      link: "https://pelvindreams.github.io/Ecom",
+    },
+    {
+      image: img5,
+      preTitle: "Growth Saver",
+      title: "Visit Project",
+      link: "https://pelvindreams.github.io/GrowthSaver",
+    },
+    {
+      image: img6,
+      preTitle: "Capital TDX",
+      title: "Visit Project",
+      link: "https://capitaltdx.in/",
+    },
   ];
 
   return (
@@ -92,8 +117,10 @@ const Work = () => {
                 My latest <br /> work.
               </h2>
               <p className="max-w-sm mb-16">
-              Recently, I’ve completed client projects customized to their needs and optimized for marketability. These showcase my expertise in delivering bespoke 
-              solutions across frontend, backend, and full-stack development.
+                Recently, I’ve completed client projects customized to their
+                needs and optimized for marketability. These showcase my
+                expertise in delivering bespoke solutions across frontend,
+                backend, and full-stack development.
               </p>
               <button className="btn btn-sm">Few projects</button>
             </div>

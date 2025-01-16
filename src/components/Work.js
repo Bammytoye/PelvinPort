@@ -7,7 +7,7 @@ const img3 = require("../assets/portfolio-img34.PNG");
 const img4 = require("../assets/portfolio-img4.PNG");
 const img5 = require("../assets/portfolio-img5.PNG");
 const img6 = require("../assets/portfolio-img6.PNG");
-
+ 
 // Animation Variants
 const fadeIn = (direction = "up", delay = 0) => {
   return {

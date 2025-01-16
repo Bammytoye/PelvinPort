@@ -7,7 +7,7 @@ import img3 from "../assets/portfolio-img34.PNG";
 import img4 from "../assets/portfolio-img4.PNG";
 import img5 from "../assets/portfolio-img5.PNG";
 import img6 from "../assets/portfolio-img6.PNG";
-
+ 
 // Animation Variants
 const fadeIn = (direction = "up", delay = 0) => {
   return {

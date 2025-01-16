@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 // images
 import img1 from "../assets/payne-img1.PNG";
-import img2 from "../assets/portfolio-img2.PNG";
+// import img2 from "../assets/portfolio-img2.PNG";
 import img3 from "../assets/portfolio-img34.PNG";
 import img4 from "../assets/portfolio-img4.PNG";
 import img5 from "../assets/portfolio-img5.PNG";
@@ -68,7 +68,7 @@ const ProjectCard = ({ image, preTitle, title, link }) => {
 const Work = () => {
   const projects = [
     { image: img1, preTitle: "PayPanel", title: "Visit Project", link: "https://www.paypanel.ng" },
-    { image: img2, preTitle: "Astro", title: "Visit Project", link: "https://astrofx.pro" },
+    // { image: img2, preTitle: "Astro", title: "Visit Project", link: "https://astrofx.pro" },
     { image: img3, preTitle: "Algo Trade", title: "Visit Project", link: "https://pelvindreams.github.io/algotrades/about.html" },
     { image: img4, preTitle: "Shopify", title: "Visit Project", link: "https://pelvindreams.github.io/Ecom" },
     { image: img5, preTitle: "Growth Saver", title: "Visit Project", link: "https://pelvindreams.github.io/GrowthSaver" },

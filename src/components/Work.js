@@ -2,11 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 // images
 import img1 from "../assets/payne-img1.PNG";
-const img2 = require("../assets/portfolio-img2.PNG");
+const img2 = require("../assets/portfolio-img2.png");
 const img3 = require("../assets/portfolio-img34.PNG");
-const img4 = require("../assets/portfolio-img4.PNG");
-const img5 = require("../assets/portfolio-img5.PNG");
-const img6 = require("../assets/portfolio-img6.PNG");
+const img4 = require("../assets/portfolio-img4.png");
+const img5 = require("../assets/portfolio-img5.png");
+const img6 = require("../assets/portfolio-img6.png");
  
 // Animation Variants
 const fadeIn = (direction = "up", delay = 0) => {

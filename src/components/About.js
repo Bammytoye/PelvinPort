@@ -51,7 +51,7 @@ const About = () => {
             >
               I'm Precious, a skilled web developer with expertise in React,
               <br />
-              Node.js, and modern technologies. Since 2019, I've been creating
+              Node.js, C# .NET CORE and modern technologies. Since 2019, I've been creating
               <br />
               innovative, user-centric solutions that blend creativity, logic,
               <br />
@@ -85,7 +85,7 @@ const About = () => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={83} duration={3} /> : null}{" "}
-                  k+
+                  +
                 </div>
 
                 <div className="font-primary text-sm tracking-[2px]">
@@ -97,7 +97,7 @@ const About = () => {
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={25} duration={3} /> : null}{" "}
-                  k+
+                  +
                 </div>
 
                 <div className="font-primary text-sm tracking-[2px]">
